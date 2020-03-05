@@ -18,9 +18,14 @@ public class BangunRuang {
     public static void main(String[] args){
         Kubus kubus = new Kubus();
         Balok balok = new Balok();
+        Tabung tabung = new Tabung();
         
         kubus.hitungVolume(10, 11, 20);
         balok.hitungVolume(3, 4, 9);
+        
+        tabung.setTinggi(15);
+        tabung.setJari(5);
+        tabung.hitungVolume();
         
     }
 }
