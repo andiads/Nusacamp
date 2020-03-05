@@ -2,7 +2,7 @@ package BangunRuang;
 
 public class Tabung extends BangunRuang{
     private int tinggi, jarijari;
-    private double volume, luasPermukaan;
+    private double volumet, luasPermukaan;
     
     public void setTinggi(int t){
       this.tinggi=t;
@@ -10,9 +10,10 @@ public class Tabung extends BangunRuang{
     public void setJari(int r){
       this.jarijari=r;
     }
-    public void setVolume()
+    public void hitungVolume()
     {
-        volume =  Math.PI * Math.pow(jarijari, 2) * tinggi;
+        volumet =  Math.PI * Math.pow(jarijari, 2) * tinggi;
+        System.out.println("Volume Tabung: "+volumet);
     }
     public void setLuasPermukaan()
     {
@@ -28,7 +29,7 @@ public class Tabung extends BangunRuang{
     }
     public double getVolume()
     {
-        return volume;
+        return volumet;
     }
     public double getLuasPermukaan()
     {
