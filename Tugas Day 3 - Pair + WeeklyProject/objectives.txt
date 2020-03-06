@@ -1,0 +1,5 @@
+tugas:
+pair + weekly project
+>cari lib java populer github 
+	>understandeable
+	>viable
